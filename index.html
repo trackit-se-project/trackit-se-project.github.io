@@ -1,497 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Track it!</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Track it!</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Alexandra<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Isabela</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ecaterina</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Alexandra</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sanziana</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bogdan</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152376245-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <div class="container-fluid my-5">
-      <div class="jumbotron">
-        <h1 class="display-4">Track it!</h1>
-        <p class="lead">
-          Stop postponing. Start tracking. Keep planning.
-        </p>
-        <hr class="my-4" />
-        <p>
-          All your favourite time managing and organizational tools in one app.
-        </p>
-        <a
-          class="btn btn-primary btn-lg"
-          href="./landing.html"
-          role="button"
-          target="_blank"
-          >Visit our landing page</a
-        >
-        <a
-          class="btn btn-primary btn-lg"
-          href="./user_experience.html"
-          role="button"
-          target="_blank"
-          >User experience</a
-        >
-      </div>
-    </div>
+    gtag('config', 'UA-152376245-1');
+  </script>
 
-    <div class="container my-5">
-      <h1><em>Problem</em></h1>
-      <p>
-        Lately, we have noticed a mutual problem at people with no common
-        background: the chaos of everyday life. Many often complain about the
-        amount of daily tasks they have so they postpone them until the last
-        moment. Postponing can lead to more stress and therefore have a negative
-        impact on one's health. When people begin to be conscious about it, they
-        turn to apps to declutter their life. These apps consist of to do lists,
-        notes, trackers etc, but the main issue is that there isn't an app which
-        includes them all keeping up with more than one app can be time and
-        energy consuming.
-      </p>
-    </div>
 
-    <div class="container my-5">
-      <h1><em>Solution</em></h1>
-      <p>
-        The solution we offer is a mobile application which lets you track your
-        habits, tasks, spendings, moods and prepares monthly reports. The
-        purpose of these reports is to evaluate your daily activities and
-        evolution. Besides that, the user can benefit from various related
-        articles for further reading.
-      </p>
-    </div>
+  <title>Track it!</title>
+</head>
 
-    <div class="container my-5">
-      <h1><em>Customer segments</em></h1>
-      <p>
-        Our application is intended for everyone looking forward to organize,
-        track and improve their life personally or professionally.
-      </p>
-    </div>
-
-    <div class="container my-5">
-      <h1><em>Competition</em></h1>
-      <ul class="list-unstyled">
-        <li class="media">
-          <img
-            class="mr-3"
-            src="https://blog.everyday.app/content/images/2018/07/everyday-ghost-1.png"
-            alt="Everyday logo"
-            width="64"
-            height="64"
-          />
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Everyday</h5>
-            Everyday is an app that lets you track your habits. Each user can
-            add and customize his own habits. The user can also visualize his
-            progress and the app generates statistics regarding each user’s
-            progress.
-          </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Track it!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Alexandra<span class="sr-only">(current)</span></a>
         </li>
-        <li class="media my-4">
-          <img
-            class="mr-3"
-            src="https://www.any.do/images/logo.png"
-            alt="Any.do logo"
-            width="64"
-            height="64"
-          />
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Any.do</h5>
-            Any.do is an app that helps you stay more organized. The user can
-            create shopping lists, to do lists and he can also prioritize his
-            tasks. The user can set a reminder for each event added to the
-            calendar.
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Isabela</a>
         </li>
-        <li class="media">
-          <img
-            class="mr-3"
-            src="https://lh3.googleusercontent.com/LrXOOME1qROZo72QLM9uFU7ggZJFsLio-ja0ndUSRdcCEo7jlaBSMsLFy-4fB-4-WGJC"
-            alt="Daylio logo"
-            width="64"
-            height="64"
-          />
-          <div class="media-body">
-            <h5 class="mt-0 mb-1">Daylio</h5>
-            Daylio is an app where you can have a journal without having to
-            write your thoughts. The user can pick the mood of the day and he
-            can also add the activities he’s done during the day. Based on the
-            user’s input the app generates statistics.
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ecaterina</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Alexandra</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sanziana</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bogdan</a>
         </li>
       </ul>
     </div>
+  </nav>
 
-    <div class="container my-5">
-      <h1><em>Our advantage</em></h1>
-      <p>
-        If a person wants to keep a journal, keep track of his habits, insert
-        his daily activities and create a shopping list, he has to download at
-        least 2 or 3 apps in order to do so. Track it! has all of these features
-        integrated and it is designed to be that app that makes life easier and
-        helps you stay organised and motivated. Our advantage over the
-        competition is that, at the moment, there is no other app that has all
-        of these specifications integrated.
+  <div class="container-fluid my-5">
+    <div class="jumbotron">
+      <h1 class="display-4">Track it!</h1>
+      <p class="lead">
+        Stop postponing. Start tracking. Keep planning.
       </p>
+      <hr class="my-4" />
+      <p>
+        All your favourite time managing and organizational tools in one app.
+      </p>
+      <a class="btn btn-primary btn-lg" href="./landing.html" role="button" target="_blank">Visit our landing page</a>
+      <a class="btn btn-primary btn-lg" href="./user_experience.html" role="button" target="_blank">User experience</a>
     </div>
+  </div>
 
-    <div class="container my-5">
-      <h1><em>Key metrics</em></h1>
-      <p>
-        Key metrics are numbers and actions on the mobile application that
-        matter to reach our strategic objectives. Here are a few points that we
-        intend to follow:
-      </p>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item bg-dark text-light">
-          Number of downloads and installs
-        </li>
-        <li class="list-group-item">
-          App acquisition - where the downloads came from
-        </li>
-        <li class="list-group-item bg-dark text-light">
-          Active users - Daily Active Users (DAU) and Monthly Active Users (MAU)
-        </li>
-        <li class="list-group-item">
-          Average Daily Sessions Per Daily Active Users - the number of sessions
-          per day divided by the number of DAU
-        </li>
-        <li class="list-group-item bg-dark text-light">
-          Average session length
-        </li>
-        <li class="list-group-item">Number of accesses per page/feature</li>
-        <li class="list-group-item bg-dark text-light">
-          Retention Rate - how many users return to the app after using it
-          previously within a set period of time
-        </li>
-        <li class="list-group-item">
-          Churn Rate - the opposite of retention rate, how many users stopped
-          using the app after the same set period of time
-        </li>
-        <li class="list-group-item bg-dark text-light">
-          Average revenue per user (ARPU) - the total revenue divided by the
-          number of subscriptions
-        </li>
-        <li class="list-group-item">
-          Cost per acquisition (CPA) - how much acquiring new users costs
-        </li>
-        <li class="list-group-item bg-dark text-light">
-          Return on investment (ROI) - measures the gain or loss generated by
-          the money invested versus the money spent building the app
-        </li>
-        <li class="list-group-item">Rating and reviews given by users</li>
-      </ul>
-    </div>
+  <div class="container my-5">
+    <h1><em>Problem</em></h1>
+    <p>
+      Lately, we have noticed a mutual problem at people with no common
+      background: the chaos of everyday life. Many often complain about the
+      amount of daily tasks they have so they postpone them until the last
+      moment. Postponing can lead to more stress and therefore have a negative
+      impact on one's health. When people begin to be conscious about it, they
+      turn to apps to declutter their life. These apps consist of to do lists,
+      notes, trackers etc, but the main issue is that there isn't an app which
+      includes them all keeping up with more than one app can be time and
+      energy consuming.
+    </p>
+  </div>
 
-    <div class="container my-5">
-      <h1><em>Cost structure</em></h1>
-      <p>
-        Buying an already developed application can imply an very high cost for
-        a startup, considering a rough estimation provided by a simple site like
-        howmuchtomakeanapp.com an application containing the features needed by
-        trackIT can cost as much as 30.000$. The application development is not
-        a kind of task that can be avoided for the aims of this kind of business
-        for reducing such a high price we can take advantage of our own team
-        programming experience. In the beginning we could launch a beta version
-        of an application and test it on a small group of target users which can
-        provide us some feedback.
-      </p>
-      <p>
-        After that we can take into consideration that the cost of publishing an
-        application on Google Play is 25$ one time fee and in case we consider
-        extending the market the Apple App Store will add an 99$ annual
-        developer fee. However, if we develop an application that can be
-        accessed through browser the hosting cost for the domain name would be a
-        monthly fee that depends on the name chosen.
-      </p>
-    </div>
+  <div class="container my-5">
+    <h1><em>Solution</em></h1>
+    <p>
+      The solution we offer is a mobile application which lets you track your
+      habits, tasks, spendings, moods and prepares monthly reports. The
+      purpose of these reports is to evaluate your daily activities and
+      evolution. Besides that, the user can benefit from various related
+      articles for further reading.
+    </p>
+  </div>
 
-    <div class="container my-5">
-      <h1><em>Revenue streams</em></h1>
-      <p>
-        The app will be available for free download but will also include a paid
-        subscription for extended features. The app will offer 3 choices:
-      </p>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <span class="badge badge-success" style="width: 70px;">Free</span>
-          subscription which will include a limited use of journal and activity
-          tracking features
-        </li>
-        <li class="list-group-item">
-          <span class="badge badge-primary" style="width: 70px;">Pro</span>
-          subscription which will add more features for tracking habits
-        </li>
-        <li class="list-group-item">
-          <span class="badge badge-dark" style="width: 70px;">Custom</span>
-          subscription which will offer users an extended use by giving
-          suggestions based on their behaviour and analysis of all tracked
-          activities, all of this with their individual consent
-        </li>
-      </ul>
-    </div>
+  <div class="container my-5">
+    <h1><em>Customer segments</em></h1>
+    <p>
+      Our application is intended for everyone looking forward to organize,
+      track and improve their life personally or professionally.
+    </p>
+  </div>
 
-    <div class="container my-5">
-      <h1><em>Validation 1</em></h1>
-      <p>
-        Our plan for customer discovery: face to face interviews with people
-        from different age demographics.
-      </p>
-      <p>
-        Each of a did a face to face interview with a person from 23 to 52 years
-        old. We used the same set of interview questions and analysed the
-        answers to draw conclusions:
-      </p>
-      <ul class="list-group">
-        <li class="list-group-item">
-          The majority of the people we interviewed considered that it is
-          important to monitor different aspects of their lives like: emotional
-          state, sleeping patterns, consumed water, calories eaten and burned,
-          time management. Some numbers at the end of the day may offer a new
-          perspective and be a good motivation for anybody to change their
-          lifestyle with a healthier one. Although important, no one wants to
-          spend much time and energy on that.
-        </li>
-        <li class="list-group-item">
-          Things that people want to keep an eye on: bad habits like too much
-          TV/Netflix or car usage, a balanced diet and meals at regular times,
-          physical exercises, factors of stress, sleep, procrastination, time
-          management.
-        </li>
-        <li class="list-group-item">
-          Most of the people use monitoring applications, but at some point they
-          forget to update them because there are too many or because they are
-          too busy. They also seem to be interested in an application that
-          combines all in one product and it is personalised to match their
-          desired activities. They found it also important that the application
-          should put them in connection with people with similar interests and
-          also give them recommendations from time to time.
-        </li>
-        <li class="list-group-item">
-          We observed that there is a tendency to split tasks according to
-          external factors such as priorities given by the workplace. Most
-          admitted that it is quite difficult to write a list and completing all
-          the noted tasks, but writing would most likely help further
-          accomplishment of the tasks.
-        </li>
-        <li class="list-group-item">
-          All the interviewed people considered it a useful thing to have an
-          organized life because this would help them split between the
-          activities they want to do, whether it is the tasks at work, the time
-          spent with their family and friends or even have time for their your
-          own person (hobbies, physical activities).
-        </li>
-        <li class="list-group-item">
-          The answers varied, there were people who answered that they do not
-          usually write such thoughts, some used to do this but now they don’t
-          do it anymore, and those who answered that they do they write down
-          quick ideas for later access and some write events that excited them
-          and other emotional thoughts.
-        </li>
-        <li class="list-group-item">
-          The majority of people we interviewed do not keep up really closely
-          with their spendings. They either use an Internet Banking application
-          or they manage their finances using lists or just their intuition.
-        </li>
-        <li class="list-group-item">
-          Most of the people would like an application that has many features
-          integrated so that they don’t have to install more than one app on
-          their phones. Almost all of them said they wanted an user friendly
-          interface with quick access to each feature. They are all interested
-          in an application that is personalized to their lifestyles and can
-          suggest recommendations based on their daily activities. The
-          conclusion is that the people we interviewed want an application that
-          can predict behaviour and recommend activities or diets with a minimum
-          input from the user.
-        </li>
-        <li class="list-group-item">
-          The majority of people we interviewed said they would like a free
-          trial of the application. They would not spend money on something they
-          aren’t sure they’re gonna like and use on a daily basis. After the
-          trial is over, they would be willing to spend an average of 5 or 6
-          euros for a monthly subscription.
-        </li>
-      </ul>
-    </div>
+  <div class="container my-5">
+    <h1><em>Competition</em></h1>
+    <ul class="list-unstyled">
+      <li class="media">
+        <img class="mr-3" src="https://blog.everyday.app/content/images/2018/07/everyday-ghost-1.png"
+          alt="Everyday logo" width="64" height="64" />
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Everyday</h5>
+          Everyday is an app that lets you track your habits. Each user can
+          add and customize his own habits. The user can also visualize his
+          progress and the app generates statistics regarding each user’s
+          progress.
+        </div>
+      </li>
+      <li class="media my-4">
+        <img class="mr-3" src="https://www.any.do/images/logo.png" alt="Any.do logo" width="64" height="64" />
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Any.do</h5>
+          Any.do is an app that helps you stay more organized. The user can
+          create shopping lists, to do lists and he can also prioritize his
+          tasks. The user can set a reminder for each event added to the
+          calendar.
+        </div>
+      </li>
+      <li class="media">
+        <img class="mr-3"
+          src="https://lh3.googleusercontent.com/LrXOOME1qROZo72QLM9uFU7ggZJFsLio-ja0ndUSRdcCEo7jlaBSMsLFy-4fB-4-WGJC"
+          alt="Daylio logo" width="64" height="64" />
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Daylio</h5>
+          Daylio is an app where you can have a journal without having to
+          write your thoughts. The user can pick the mood of the day and he
+          can also add the activities he’s done during the day. Based on the
+          user’s input the app generates statistics.
+        </div>
+      </li>
+    </ul>
+  </div>
 
-    <footer class="page-footer font-small bg-light mt-5">
-      <div class="container-fluid px-5 py-5">
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/ali.png"
-              class="rounded-circle mb-3"
-              alt="Alexandra profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Alexandra</span>
-              <span class="badge badge-pill badge-dark"
-                >mihalcea.mariaalexandra@yahoo.ro</span
-              >
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/isabela.png"
-              class="rounded-circle mb-3"
-              alt="Profile profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Isabela</span>
-              <span class="badge badge-pill badge-dark"
-                >isabeladragu96@yahoo.ro</span
-              >
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/ecaterina.png"
-              class="rounded-circle mb-3"
-              alt="Ecaterina profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Ecaterina</span>
-              <span class="badge badge-pill badge-dark"
-                >ecaterinachiriac@yahoo.ro</span
-              >
-            </div>
+  <div class="container my-5">
+    <h1><em>Our advantage</em></h1>
+    <p>
+      If a person wants to keep a journal, keep track of his habits, insert
+      his daily activities and create a shopping list, he has to download at
+      least 2 or 3 apps in order to do so. Track it! has all of these features
+      integrated and it is designed to be that app that makes life easier and
+      helps you stay organised and motivated. Our advantage over the
+      competition is that, at the moment, there is no other app that has all
+      of these specifications integrated.
+    </p>
+  </div>
+
+  <div class="container my-5">
+    <h1><em>Key metrics</em></h1>
+    <p>
+      Key metrics are numbers and actions on the mobile application that
+      matter to reach our strategic objectives. Here are a few points that we
+      intend to follow:
+    </p>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item bg-dark text-light">
+        Number of downloads and installs
+      </li>
+      <li class="list-group-item">
+        App acquisition - where the downloads came from
+      </li>
+      <li class="list-group-item bg-dark text-light">
+        Active users - Daily Active Users (DAU) and Monthly Active Users (MAU)
+      </li>
+      <li class="list-group-item">
+        Average Daily Sessions Per Daily Active Users - the number of sessions
+        per day divided by the number of DAU
+      </li>
+      <li class="list-group-item bg-dark text-light">
+        Average session length
+      </li>
+      <li class="list-group-item">Number of accesses per page/feature</li>
+      <li class="list-group-item bg-dark text-light">
+        Retention Rate - how many users return to the app after using it
+        previously within a set period of time
+      </li>
+      <li class="list-group-item">
+        Churn Rate - the opposite of retention rate, how many users stopped
+        using the app after the same set period of time
+      </li>
+      <li class="list-group-item bg-dark text-light">
+        Average revenue per user (ARPU) - the total revenue divided by the
+        number of subscriptions
+      </li>
+      <li class="list-group-item">
+        Cost per acquisition (CPA) - how much acquiring new users costs
+      </li>
+      <li class="list-group-item bg-dark text-light">
+        Return on investment (ROI) - measures the gain or loss generated by
+        the money invested versus the money spent building the app
+      </li>
+      <li class="list-group-item">Rating and reviews given by users</li>
+    </ul>
+  </div>
+
+  <div class="container my-5">
+    <h1><em>Cost structure</em></h1>
+    <p>
+      Buying an already developed application can imply an very high cost for
+      a startup, considering a rough estimation provided by a simple site like
+      howmuchtomakeanapp.com an application containing the features needed by
+      trackIT can cost as much as 30.000$. The application development is not
+      a kind of task that can be avoided for the aims of this kind of business
+      for reducing such a high price we can take advantage of our own team
+      programming experience. In the beginning we could launch a beta version
+      of an application and test it on a small group of target users which can
+      provide us some feedback.
+    </p>
+    <p>
+      After that we can take into consideration that the cost of publishing an
+      application on Google Play is 25$ one time fee and in case we consider
+      extending the market the Apple App Store will add an 99$ annual
+      developer fee. However, if we develop an application that can be
+      accessed through browser the hosting cost for the domain name would be a
+      monthly fee that depends on the name chosen.
+    </p>
+  </div>
+
+  <div class="container my-5">
+    <h1><em>Revenue streams</em></h1>
+    <p>
+      The app will be available for free download but will also include a paid
+      subscription for extended features. The app will offer 3 choices:
+    </p>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <span class="badge badge-success" style="width: 70px;">Free</span>
+        subscription which will include a limited use of journal and activity
+        tracking features
+      </li>
+      <li class="list-group-item">
+        <span class="badge badge-primary" style="width: 70px;">Pro</span>
+        subscription which will add more features for tracking habits
+      </li>
+      <li class="list-group-item">
+        <span class="badge badge-dark" style="width: 70px;">Custom</span>
+        subscription which will offer users an extended use by giving
+        suggestions based on their behaviour and analysis of all tracked
+        activities, all of this with their individual consent
+      </li>
+    </ul>
+  </div>
+
+  <div class="container my-5">
+    <h1><em>Validation 1</em></h1>
+    <p>
+      Our plan for customer discovery: face to face interviews with people
+      from different age demographics.
+    </p>
+    <p>
+      Each of a did a face to face interview with a person from 23 to 52 years
+      old. We used the same set of interview questions and analysed the
+      answers to draw conclusions:
+    </p>
+    <ul class="list-group">
+      <li class="list-group-item">
+        The majority of the people we interviewed considered that it is
+        important to monitor different aspects of their lives like: emotional
+        state, sleeping patterns, consumed water, calories eaten and burned,
+        time management. Some numbers at the end of the day may offer a new
+        perspective and be a good motivation for anybody to change their
+        lifestyle with a healthier one. Although important, no one wants to
+        spend much time and energy on that.
+      </li>
+      <li class="list-group-item">
+        Things that people want to keep an eye on: bad habits like too much
+        TV/Netflix or car usage, a balanced diet and meals at regular times,
+        physical exercises, factors of stress, sleep, procrastination, time
+        management.
+      </li>
+      <li class="list-group-item">
+        Most of the people use monitoring applications, but at some point they
+        forget to update them because there are too many or because they are
+        too busy. They also seem to be interested in an application that
+        combines all in one product and it is personalised to match their
+        desired activities. They found it also important that the application
+        should put them in connection with people with similar interests and
+        also give them recommendations from time to time.
+      </li>
+      <li class="list-group-item">
+        We observed that there is a tendency to split tasks according to
+        external factors such as priorities given by the workplace. Most
+        admitted that it is quite difficult to write a list and completing all
+        the noted tasks, but writing would most likely help further
+        accomplishment of the tasks.
+      </li>
+      <li class="list-group-item">
+        All the interviewed people considered it a useful thing to have an
+        organized life because this would help them split between the
+        activities they want to do, whether it is the tasks at work, the time
+        spent with their family and friends or even have time for their your
+        own person (hobbies, physical activities).
+      </li>
+      <li class="list-group-item">
+        The answers varied, there were people who answered that they do not
+        usually write such thoughts, some used to do this but now they don’t
+        do it anymore, and those who answered that they do they write down
+        quick ideas for later access and some write events that excited them
+        and other emotional thoughts.
+      </li>
+      <li class="list-group-item">
+        The majority of people we interviewed do not keep up really closely
+        with their spendings. They either use an Internet Banking application
+        or they manage their finances using lists or just their intuition.
+      </li>
+      <li class="list-group-item">
+        Most of the people would like an application that has many features
+        integrated so that they don’t have to install more than one app on
+        their phones. Almost all of them said they wanted an user friendly
+        interface with quick access to each feature. They are all interested
+        in an application that is personalized to their lifestyles and can
+        suggest recommendations based on their daily activities. The
+        conclusion is that the people we interviewed want an application that
+        can predict behaviour and recommend activities or diets with a minimum
+        input from the user.
+      </li>
+      <li class="list-group-item">
+        The majority of people we interviewed said they would like a free
+        trial of the application. They would not spend money on something they
+        aren’t sure they’re gonna like and use on a daily basis. After the
+        trial is over, they would be willing to spend an average of 5 or 6
+        euros for a monthly subscription.
+      </li>
+    </ul>
+  </div>
+
+  <footer class="page-footer font-small bg-light mt-5">
+    <div class="container-fluid px-5 py-5">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/ali.png" class="rounded-circle mb-3" alt="Alexandra profile" width="200" height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Alexandra</span>
+            <span class="badge badge-pill badge-dark">mihalcea.mariaalexandra@yahoo.ro</span>
           </div>
         </div>
-        <div class="my-5"></div>
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/alexandra.png"
-              class="rounded-circle mb-3"
-              alt="Profile profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Alexandra</span>
-              <span class="badge badge-pill badge-dark"
-                >alex_2396@yahoo.com</span
-              >
-            </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/isabela.png" class="rounded-circle mb-3" alt="Profile profile" width="200" height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Isabela</span>
+            <span class="badge badge-pill badge-dark">isabeladragu96@yahoo.ro</span>
           </div>
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/sanziana.png"
-              class="rounded-circle mb-3"
-              alt="Sanziana profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Sanziana</span>
-              <span class="badge badge-pill badge-dark"
-                >sanzi.voicu@gmail.com</span
-              >
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <img
-              src="./images/bogdan.png"
-              class="rounded-circle mb-3"
-              alt="Bogdan profile"
-              width="200"
-              height="200"
-            />
-            <div class=" d-flex flex-column px-5">
-              <span>Bogdan</span>
-              <span class="badge badge-pill badge-dark"
-                >bogdan.georgescu.gbm@gmail.com</span
-              >
-            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/ecaterina.png" class="rounded-circle mb-3" alt="Ecaterina profile" width="200"
+            height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Ecaterina</span>
+            <span class="badge badge-pill badge-dark">ecaterinachiriac@yahoo.ro</span>
           </div>
         </div>
       </div>
-
-      <div class="footer-copyright text-center py-3 bg-dark">
-        <span class="text-light"
-          ><span class="font-weight-light">© 2019 Copyright:</span>
-          trackit.se.project.@gmail.com</span
-        >
+      <div class="my-5"></div>
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/alexandra.png" class="rounded-circle mb-3" alt="Profile profile" width="200"
+            height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Alexandra</span>
+            <span class="badge badge-pill badge-dark">alex_2396@yahoo.com</span>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/sanziana.png" class="rounded-circle mb-3" alt="Sanziana profile" width="200"
+            height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Sanziana</span>
+            <span class="badge badge-pill badge-dark">sanzi.voicu@gmail.com</span>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="./images/bogdan.png" class="rounded-circle mb-3" alt="Bogdan profile" width="200" height="200" />
+          <div class=" d-flex flex-column px-5">
+            <span>Bogdan</span>
+            <span class="badge badge-pill badge-dark">bogdan.georgescu.gbm@gmail.com</span>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="footer-copyright text-center py-3 bg-dark">
+      <span class="text-light"><span class="font-weight-light">© 2019 Copyright:</span>
+        trackit.se.project.@gmail.com</span>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
