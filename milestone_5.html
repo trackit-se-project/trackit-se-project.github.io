@@ -1,564 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <style>
-      .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343a40' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <style>
+    .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343a40' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343a40' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    @media (max-width: 425px) {
+
+      #contact h3,
+      h5 {
+        font-size: 100%;
       }
-      .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23343a40' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-      }
-      @media (max-width: 425px) {
-        #contact h3,
-        h5 {
-          font-size: 100%;
-        }
-      }
-    </style>
+    }
+  </style>
 
-    <title>Track it!</title>
-  </head>
+  <title>Track it!</title>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Track it!</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Milestone 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./milestone_2.html">Milestone 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./milestone_3.html">Milestone 3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./milestone_4.html">Milestone 4</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Milestone 5<span class="sr-only">(current)</span></a
-            >
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Track it!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Milestone 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./milestone_2.html">Milestone 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./milestone_3.html">Milestone 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./milestone_4.html">Milestone 4</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Milestone 5<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./milestone_6.html">Milestone 6</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid my-5">
+    <div class="jumbotron">
+      <h1 class="display-4">Track it!</h1>
+      <p class="lead">
+        Stop postponing. Start tracking. Keep planning.
+      </p>
+      <hr class="my-4" />
+      <p>
+        All your favourite time managing and organizational tools in one app.
+      </p>
+      <a class="btn btn-primary btn-lg" href="./landing.html" role="button" target="_blank">Visit our landing page</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="container my-5">
+      <h1><em>Validation 2</em></h1>
+    </div>
+    <div class="container my-5">
+      <h2><em>Sharing on social media</em></h2>
+      <p>
+        After we implemented the newsletter subscription and incorporated Google Analytics and Hotjar, we shared our
+        landing page on our personal Facebook profiles and on a Facebook group as well. We managed to get quite a big
+        amount of visits on our landing page because of that. Also, besides the webpage visits, we also got some
+        feedback and ideas.
+
+        <div id="carousel" class="container py-5">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+              <li class="bg-dark" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li class="bg-dark" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li class="bg-dark" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li class="bg-dark" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li class="bg-dark" data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner w-100 py-5">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 offset-md-3">
+                    <img src="./images/facebook-share/fb-share-isa.png" style="height: 500px;" alt="First slide" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 offset-md-3">
+                    <img src="./images/facebook-share/fb-share-ali.png" style="height: 500px;" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-8 col-md-6 offset-md-3">
+                    <img src="./images/facebook-share/fb-share-bogdan.png" style="height: 400px;" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 offset-md-3">
+                    <img src="./images/facebook-share/fb-feedback1.png" style="height: 100px;" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 offset-md-3">
+                    <img src="./images/facebook-share/fb-feedback2.png" style="height: 200px;" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-2 offset-md-4">
+                    <img src="./images/facebook-share/fb-feedback3.png" style="height: 300px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+      </p>
+    </div>
+
+    <div id="carousel-google" class="container my-5">
+      <h2><em>Google Analytics</em></h2>
+      <p>
+        Google Analytics helped us in understanding who are our users. Due to the Google Analytics' statistics we now
+        have the following conclusions:
+        <ul>
+          <li>Most of our users accessed the landing page on a mobile device. In the future, it is advised to focus more
+            on how the landing page looks on a mobile device</li>
+          <li>Even though the number of users dropped by 41 users one day after we shared the landing page on social
+            media, 10.6% of users returned to the webpage</li>
+          <li>Some of the users were from outside of Romania but their percentage is really small so that shouldn't be
+            our focus for now. Yet, it is good to know that our application can attract people who don't live in Romania
           </li>
         </ul>
-      </div>
-    </nav>
-
-    <div class="container-fluid my-5">
-      <div class="jumbotron">
-        <h1 class="display-4">Track it!</h1>
-        <p class="lead">
-          Stop postponing. Start tracking. Keep planning.
-        </p>
-        <hr class="my-4" />
-        <p>
-          All your favourite time managing and organizational tools in one app.
-        </p>
-        <a
-          class="btn btn-primary btn-lg"
-          href="./landing.html"
-          role="button"
-          target="_blank"
-          >Visit our landing page</a
-        >
-      </div>
+        <div class="container py-5">
+          <div id="carouselExampleControlsGoogle" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControlsGoogle" data-slide-to="0" class="active bg-dark"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="1"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="2"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="3"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="4"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="5"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsGoogle" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner w-100 py-5">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 offset-md-2">
+                    <img src="./images/google-analytics/google-analytics-users-graph1.png" style="height: 350px;"
+                      alt="First slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-2 align-self-center">
+                    <h4>Users graph on the day we shared the landing page on social media</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 offset-md-2">
+                    <img src="./images/google-analytics/google-analytics-users-graph2.png" style="height: 350px;"
+                      alt="Calendar slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-2 align-self-center">
+                    <h4>Users graph one day after we shared the landing page on social media</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 offset-md-3">
+                    <img src="./images/google-analytics/devices-graph.png" style="height: 400px;" alt="Todo slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>Sessions by device</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 offset-md-3">
+                    <img src="./images/google-analytics/location-graph.png" style="height: 400px;" alt="Habit slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>Sessions by country</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 offset-md-2">
+                    <img src="./images/google-analytics/returning-visitors-graph.png" style="height: 300px;"
+                      alt="Money slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>How many users have returned</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-5 offset-md-2">
+                    <img src="./images/google-analytics/top-channels.png" style="height: 300px;" alt="Notes slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>How we acquired users</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 offset-md-2">
+                    <img src="./images/google-analytics/user-referrals.png" style="height: 280px;" alt="Sleep slide" />
+                  </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>User referrals</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControlsGoogle" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControlsGoogle" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </p>
     </div>
 
-    <div class="container">
-      <div class="container my-5">
-        <h1><em>Validation 2</em></h1>
-      </div>
-      <div class="container my-5">
-        <h2><em>Sharing on social media</em></h2>
-        <p>
-          After we implemented the newsletter subscription and incorporated Google Analytics and Hotjar, we shared our landing page on our personal Facebook profiles and on a Facebook group as well. We managed to get quite a big amount of visits on our landing page because of that. Also, besides the webpage visits, we also got some feedback and ideas.
-
-          <div id="carousel" class="container py-5">
-            <div
-              id="carouselExampleControls"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="0"
-                  class="active bg-dark"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="2"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="3"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="4"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="5"
-                ></li>
-              </ol>
-              <div class="carousel-inner w-100 py-5">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-3">
-                      <img
-                        src="./images/facebook-share/fb-share-isa.png"
-                        style="height: 500px;"
-                        alt="First slide"
-                      />
-                    </div>
+    <div class="container my-5">
+      <h2><em>Hotjar</em></h2>
+      <p>
+        Hotjar helped us a lot in understanding our product from the user's point of view. Due to the screen recordings
+        we now have the following conclusions:
+        <ul>
+          <li>Most of the users checked out the wireframes from the carousel, that's why we included only that part of
+            the heatmap</li>
+          <li>When the device used to access the landing page was a phone, a significant amount of users clicked on the
+            navbar as well</li>
+          <li>Some users wanted to download the application first</li>
+          <li>Many users just scrolled down the webpage without doing anything</li>
+          <li>The subscribe button didn't really get users' attention</li>
+          <li>Some of the users who clicked of the subscribe button didn't actually subscribe to the newsletter</li>
+        </ul>
+        <div class="container py-5">
+          <div id="carouselExampleControlsHotjar" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControlsHotjar" data-slide-to="0" class="active bg-dark"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsHotjar" data-slide-to="1"></li>
+              <li class="bg-dark" data-target="#carouselExampleControlsHotjar" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner w-100 py-5">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 offset-md-1">
+                    <img src="./images/hotjar/desktop.png" style="height: 150px;" alt="First slide" />
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-3">
-                      <img
-                        src="./images/facebook-share/fb-share-ali.png"
-                        style="height: 500px;"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-8 col-md-6 offset-md-3">
-                      <img
-                        src="./images/facebook-share/fb-share-bogdan.png"
-                        style="height: 400px;"
-                        
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-3">
-                      <img
-                        src="./images/facebook-share/fb-feedback1.png"
-                        style="height: 100px;"
-                       
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-3">
-                      <img
-                        src="./images/facebook-share/fb-feedback2.png"
-                        style="height: 200px;"
-                        
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-2 offset-md-4">
-                      <img
-                        src="./images/facebook-share/fb-feedback3.png"
-                        style="height: 300px;"
-                        
-                      />
-                    </div>
+                  <div class="col-sm-6 col-md-5 align-self-center">
+                    <h4>Heatmap on desktop</h4>
                   </div>
                 </div>
               </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-
-        </p>
-      </div>
-
-      <div id="carousel-google" class="container my-5">
-        <h2><em>Google Analytics</em></h2>
-        <p>
-          Google Analytics helped us in understanding who are our users. Due to the Google Analytics' statistics we now have the following conclusions:
-          <ul>
-            <li>Most of our users accessed the landing page on a mobile device. In the future, it is advised to focus more on how the landing page looks on a mobile device</li>
-            <li>Even though the number of users dropped by 41 users one day after we shared the landing page on social media, 10.6% of users returned to the webpage</li>
-            <li>Some of the users were from outside of Romania but their percentage is really small so that shouldn't be our focus for now. Yet, it is good to know that our application can attract people who don't live in Romania</li>
-          </ul>
-          <div class="container py-5">
-            <div
-              id="carouselExampleControlsGoogle"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="0"
-                  class="active bg-dark"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="2"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="3"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="4"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="5"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsGoogle"
-                  data-slide-to="6"
-                ></li>
-              </ol>
-              <div class="carousel-inner w-100 py-5">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
-                      <img
-                        src="./images/google-analytics/google-analytics-users-graph1.png"
-                        style="height: 350px;"
-                        alt="First slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-2 align-self-center">
-                      <h4>Users graph on the day we shared the landing page on social media</h4>
-                    </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 offset-md-3">
+                    <img src="./images/hotjar/phone2.png" style="height: 300px;" alt="Calendar slide" />
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
-                      <img
-                        src="./images/google-analytics/google-analytics-users-graph2.png"
-                        style="height: 350px;"
-                        alt="Calendar slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-2 align-self-center">
-                      <h4>Users graph one day after we shared the landing page on social media</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-4 offset-md-3">
-                      <img
-                        src="./images/google-analytics/devices-graph.png"
-                        style="height: 400px;"
-                        alt="Todo slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>Sessions by device</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-4 offset-md-3">
-                      <img
-                        src="./images/google-analytics/location-graph.png"
-                        style="height: 400px;"
-                        alt="Habit slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>Sessions by country</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-4 offset-md-2">
-                      <img
-                        src="./images/google-analytics/returning-visitors-graph.png"
-                        style="height: 300px;"
-                        alt="Money slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>How many users have returned</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-5 offset-md-2">
-                      <img
-                        src="./images/google-analytics/top-channels.png"
-                        style="height: 300px;"
-                        alt="Notes slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>How we acquired users</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6 offset-md-2">
-                      <img
-                        src="./images/google-analytics/user-referrals.png"
-                        style="height: 280px;"
-                        alt="Sleep slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>User referrals</h4>
-                    </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>Heatmap on phone</h4>
                   </div>
                 </div>
               </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleControlsGoogle"
-                role="button"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleControlsGoogle"
-                role="button"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </p>
-      </div>
-
-      <div class="container my-5">
-        <h2><em>Hotjar</em></h2>
-        <p>
-          Hotjar helped us a lot in understanding our product from the user's point of view. Due to the screen recordings we now have the following conclusions:
-          <ul>
-            <li>Most of the users checked out the wireframes from the carousel, that's why we included only that part of the heatmap</li>
-            <li>When the device used to access the landing page was a phone, a significant amount of users clicked on the navbar as well</li>
-            <li>Some users wanted to download the application first</li>
-            <li>Many users just scrolled down the webpage without doing anything</li>
-            <li>The subscribe button didn't really get users' attention</li>
-            <li>Some of the users who clicked of the subscribe button didn't actually subscribe to the newsletter</li>
-          </ul> 
-          <div class="container py-5">
-            <div
-              id="carouselExampleControlsHotjar"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselExampleControlsHotjar"
-                  data-slide-to="0"
-                  class="active bg-dark"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsHotjar"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  class="bg-dark"
-                  data-target="#carouselExampleControlsHotjar"
-                  data-slide-to="2"
-                ></li>
-              </ol>
-              <div class="carousel-inner w-100 py-5">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6 offset-md-1">
-                      <img
-                        src="./images/hotjar/desktop.png"
-                        style="height: 150px;"
-                        alt="First slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-5 align-self-center">
-                      <h4>Heatmap on desktop</h4>
-                    </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 offset-md-3">
+                    <img src="./images/hotjar/phone.png" style="height: 300px;" alt="Todo slide" />
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-4 offset-md-3">
-                      <img
-                        src="./images/hotjar/phone2.png"
-                        style="height: 300px;"
-                        alt="Calendar slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>Heatmap on phone</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-4 offset-md-3">
-                      <img
-                        src="./images/hotjar/phone.png"
-                        style="height: 300px;"
-                        alt="Todo slide"
-                      />
-                    </div>
-                    <div class="col-sm-6 col-md-4 align-self-center">
-                      <h4>Heatmap on phone</h4>
-                    </div>
+                  <div class="col-sm-6 col-md-4 align-self-center">
+                    <h4>Heatmap on phone</h4>
                   </div>
                 </div>
               </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleControlsHotjar"
-                role="button"
-                data-slide="prev"
-              >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleControlsHotjar"
-                role="button"
-                data-slide="next"
-              >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleControlsHotjar" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControlsHotjar" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-       
-        </p>
-      </div>
+        </div>
 
-
-      <div class="container my-5">
-        <h2><em>Newsletter subscription</em></h2>
-        <p>
-          <div class="row">
-            <div class="col-sm-12 col-md-6 offset-md-1">
-              <img src="./images/formspree.png"  style="height: 110px;">
-            </div>
-            <div class="col-sm-6 col-md-5 align-self-center">
-              <h5>From over 100 users, only 13 people subscribed to our newsletter</h5>
-            </div>  
-          </div>
-        </p>
-      </div>
-    
+      </p>
     </div>
 
-    <footer class="page-footer font-small bg-light mt-5">
-      <div class="footer-copyright text-center py-3 bg-dark">
-        <span class="text-light"
-          ><span class="font-weight-light">© 2019 Copyright:</span>
-          trackit.se.project.@gmail.com</span
-        >
-      </div>
-    </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="container my-5">
+      <h2><em>Newsletter subscription</em></h2>
+      <p>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 offset-md-1">
+            <img src="./images/formspree.png" style="height: 110px;">
+          </div>
+          <div class="col-sm-6 col-md-5 align-self-center">
+            <h5>From over 100 users, only 13 people subscribed to our newsletter</h5>
+          </div>
+        </div>
+      </p>
+    </div>
+
+  </div>
+
+  <footer class="page-footer font-small bg-light mt-5">
+    <div class="footer-copyright text-center py-3 bg-dark">
+      <span class="text-light"><span class="font-weight-light">© 2019 Copyright:</span>
+        trackit.se.project.@gmail.com</span>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
